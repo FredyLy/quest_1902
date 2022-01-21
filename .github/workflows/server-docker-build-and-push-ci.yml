@@ -2,11 +2,11 @@ name: docker-ci
 
 on:
   push:
-    branches-ignore:
-      - "main"
+    branches:
+      - 'main'
 
 jobs:
-  docker:
+  docker-ci:
     runs-on: ubuntu-latest
     steps:
       -
